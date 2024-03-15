@@ -1,10 +1,10 @@
 package test;
 
-
 import main.BalancedBrackets;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class BalancedBracketsTest {
 //1. Only brackets return true
@@ -89,5 +89,7 @@ public class BalancedBracketsTest {
     public void whitTextBeforeBracketsReturnsTrue() {
         assertTrue(BalancedBrackets.hasBalancedBrackets("[]que tal"));
     }
+
+
 }
 
